@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @Controller
 @RequestMapping("/api/mascota")
-public class PropietarioController {
+public class MascotaController {
 
     @Autowired
     private IMascotaService service;
