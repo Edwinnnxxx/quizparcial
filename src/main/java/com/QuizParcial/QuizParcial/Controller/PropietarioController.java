@@ -28,7 +28,7 @@ public class MascotaController {
         return "index";
     }
 
-
+    //agregar
     @GetMapping("/nuevamascota")
     public String formAgregarMascotas(Model model){
         model.addAttribute("titulo", "Nueva Mascota");
@@ -39,7 +39,7 @@ public class MascotaController {
         return "nuevo";
     }
 
-
+    //Eliminar
     @PostMapping("/guardar")
     public String guardarEstudiante(@ModelAttribute Mascota mascota){
         service.guardar(mascota);
