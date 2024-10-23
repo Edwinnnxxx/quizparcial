@@ -5,6 +5,8 @@ import com.QuizParcial.QuizParcial.Model.Mascota;
 import java.util.List;
 import java.util.Optional;
 
+//Cambio
+
 public interface IMascotaService {
     List<Mascota> listar();
 
